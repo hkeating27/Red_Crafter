@@ -1,0 +1,266 @@
+[
+  {
+    "itemId": 5057,
+    "name": "Iron Ingot",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5106,
+        "name": "Iron Ore",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5334,
+    "name": "Iron Rivets",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5057,
+        "name": "Iron Ingot",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5345,
+    "name": "Iron Nails",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5057,
+        "name": "Iron Ingot",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5072,
+    "name": "Iron Plate",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5057,
+        "name": "Iron Ingot",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5058,
+    "name": "Steel Ingot",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5057,
+        "name": "Iron Ingot",
+        "qty": 1
+      },
+      {
+        "itemId": 5112,
+        "name": "Coal",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5073,
+    "name": "Steel Plate",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5058,
+        "name": "Steel Ingot",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5065,
+    "name": "Mythril Ingot",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5118,
+        "name": "Mythril Ore",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5079,
+    "name": "Mythril Plate",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5065,
+        "name": "Mythril Ingot",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5066,
+    "name": "Electrum Ingot",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5116,
+        "name": "Electrum Ore",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5080,
+    "name": "Electrum Plate",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5066,
+        "name": "Electrum Ingot",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5069,
+    "name": "Gold Ingot",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5124,
+        "name": "Gold Ore",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5361,
+    "name": "Maple Lumber",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5360,
+        "name": "Maple Log",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5373,
+    "name": "Oak Lumber",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5372,
+        "name": "Oak Log",
+        "qty": 1
+      }
+    ]
+  },
+
+  {
+    "itemId": 5325,
+    "name": "Undyed Cotton Cloth",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5353,
+        "name": "Cotton Yarn",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 4830,
+    "name": "Velveteen",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5353,
+        "name": "Cotton Yarn",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemId": 4831,
+    "name": "Woolen Cloth",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5354,
+        "name": "Wool Yarn",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemId": 4832,
+    "name": "Linen Cloth",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5357,
+        "name": "Linen Yarn",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "itemId": 5329,
+    "name": "Undyed Felt",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5354,
+        "name": "Wool Yarn",
+        "qty": 3
+      }
+    ]
+  },
+
+  {
+    "itemId": 5276,
+    "name": "Hard Leather",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5258,
+        "name": "Animal Hide",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5277,
+    "name": "Aldgoat Leather",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5259,
+        "name": "Aldgoat Hide",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "itemId": 5285,
+    "name": "Raptor Leather",
+    "outputQty": 1,
+    "ingredients": [
+      {
+        "itemId": 5265,
+        "name": "Raptor Skin",
+        "qty": 1
+      }
+    ]
+  }
+]
