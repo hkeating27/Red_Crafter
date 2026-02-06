@@ -1,8 +1,8 @@
-export async function getHealth() {
+/*export async function getHealth() {
     const res = await fetch("/api/health");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     return await res.json();
-}
+}*/
 
 export async function getUniversalisCurrent(world, itemId) {
     const params = new URLSearchParams({
