@@ -27,6 +27,7 @@
         }
     }
 
+    //TODO: Remove when Top 20 is running
     async function checkUniversalis() {
         uniStatus.value = "Checking...";
         uniResult.value = null;
