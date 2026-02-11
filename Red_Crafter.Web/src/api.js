@@ -5,10 +5,20 @@ export async function getHealth() {
 }
 
 export async function getUniversalisCurrent(world, itemId) {
+    const worldName =
+        typeof world === "string"
+            ? world
+            : world?.world ?? world?.value ?? world?.name ?? "";
+
+    const resolvedItemId =
+        itemId ?? (typeof world === "object" ? world?.itemId : undefined) ?? "";
+
     const params = new URLSearchParams({
-        world: world ?? "",
-        itemId: String(itemId ?? ""),
+        world: worldName,
+        itemId: String(resolvedItemId),
     });
+
+    console.log("params:", params.toString());
 
     const res = await fetch(`/api/universalis/current?${params.toString()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -20,5 +30,10 @@ export async function getTopProfits(world) {
 
     const res = await fetch(`/api/profits/top?${params.toString()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.json();
+
+    const data = await res.json();
+
+    console.log("TOP PROFITS API RESPONSE:", data);
+
+    return data;
 }
