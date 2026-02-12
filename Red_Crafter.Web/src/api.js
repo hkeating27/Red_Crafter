@@ -4,6 +4,14 @@ export async function getHealth() {
     return await res.json();
 }
 
+const API_BASE = import.meta.env.VITE_API_BASE_URL || ""; // "" = same-origin for local dev
+
+export async function getTopProfits(world) {
+    const res = await fetch(`${API_BASE}/api/profits/top?world=${encodeURIComponent(world)}`);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    return await res.json();
+}
+
 export async function getUniversalisCurrent(world, itemId) {
     const worldName =
         typeof world === "string"
@@ -25,6 +33,7 @@ export async function getUniversalisCurrent(world, itemId) {
     return await res.json();
 }
 
+/*
 export async function getTopProfits(world) {
     const params = new URLSearchParams({ world: world ?? "" });
 
@@ -36,4 +45,4 @@ export async function getTopProfits(world) {
     console.log("TOP PROFITS API RESPONSE:", data);
 
     return data;
-}
+}*/

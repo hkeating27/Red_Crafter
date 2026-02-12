@@ -12,6 +12,10 @@ builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
+//AWS support
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
 // ---- If you run http-only, you can comment this out to remove warnings ----
 // app.UseHttpsRedirection();
 
@@ -156,7 +160,7 @@ app.MapGet("/api/profits/top", async (
         skipped
     });
 });
-
+app.MapFallbackToFile("index.html"); //For AWS
 app.Run();
 
 // --------------------

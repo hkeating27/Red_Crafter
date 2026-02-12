@@ -41,7 +41,7 @@
 <template>
     <main class="wrap">
         <h1>Red Crafter</h1>
-        <p class="hint">Find profitable crafts in Final Fantasy XIV using Universalis market data.</p>
+        <p class="hint">Hunter only, do not steal my stock trading strategy.</p>
 
         <section class="card">
             <div class="row topbar">
